@@ -1,5 +1,3 @@
-# vantage-breach-incident-report
-
 # Vantage Breach Incident Report
 **Incident ID:** INC-10001  
 **Date of Incident:** July 1, 2025  
