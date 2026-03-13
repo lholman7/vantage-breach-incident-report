@@ -1,4 +1,4 @@
-<api-creae-user.json>
+<api.create.user.json>
     POST /identity/v3/users HTTP/1.1
     Host: 134.209.71.220
     User-Agent: openstacksdk/4.6.0 keystoneauth1/5.11.1 python-requests/2.32.4 CPython/3.13.5
