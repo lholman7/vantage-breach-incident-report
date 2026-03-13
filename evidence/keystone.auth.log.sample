@@ -1,0 +1,21 @@
+<keystone.auth.log.sample>
+    GET /identity HTTP/1.1
+    Host: 134.209.71.220
+    User-Agent: openstacksdk/4.6.0 keystoneauth1/5.11.1 python-requests/2.32.4 CPython/3.13.5
+    Accept-Encoding: gzip, deflate
+    Accept: application/json
+    Connection: keep-alive
+    
+    
+    0.003784s
+    HTTP/1.1 300 MULTIPLE CHOICES
+    Date: Tue, 01 Jul 2025 09:41:44 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    Content-Type: application/json
+    Content-Length: 273
+    Location: http://134.209.71.220/identity/v3/
+    Vary: X-Auth-Token
+    x-openstack-request-id: req-9686b56a-0149-4e8d-83a3-f0a8e5511060
+    Connection: close
+
+{"versions": {"values": [{"id": "v3.14", "status": "stable", "updated": "2020-04-07T00:00:00Z", "links": [{"rel": "self", "href": "http://134.209.71.220/identity/v3/"}], "media-types": [{"base": "application/json", "type": "application/vnd.openstack.identity-v3+json"}]}]}}
