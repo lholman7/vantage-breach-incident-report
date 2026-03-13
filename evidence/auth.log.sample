@@ -16,7 +16,7 @@
     
     
     0.000000s
-    csrfmiddlewaretoken=yviCpdd2UAkGwSLwB7aqm7OSAIjoJXB2XwGdiNz6UVBtbbkGH3E8l1HSKHIfNyDO&fake_email=&fake_password=&next=%2Fdashboard%2F&region=default&username=admin&password=StrongAdminSecret
+    csrfmiddlewaretoken=yviCpdd2UAkGwSLwB7aqm7OSAIjoJXB2XwGdiNz6UVBtbbkGH3E8l1HSKHIfNyDO&fake_email=&fake_password=&next=%2Fdashboard%2F&region=default&username=admin&password=REDACTED
     0.373741s
     HTTP/1.1 302 Found
     Date: Tue, 01 Jul 2025 09:40:07 GMT
