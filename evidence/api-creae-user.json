@@ -1,0 +1,27 @@
+<api-creae-user.json>
+    POST /identity/v3/users HTTP/1.1
+    Host: 134.209.71.220
+    User-Agent: openstacksdk/4.6.0 keystoneauth1/5.11.1 python-requests/2.32.4 CPython/3.13.5
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    X-Auth-Token: gAAAAABoY********
+    Content-Type: application/json
+    Content-Length: 130
+    
+    
+    0.000000s
+    {"user": {"password": "P*****", "enabled": true, "default_project_id": "9fb84977ff7c4a0baf0d5dbb57e235c7", "name": "jellibean"}}
+    0.050393s
+    HTTP/1.1 201 CREATED
+    Date: Tue, 01 Jul 2025 09:48:02 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    Content-Type: application/json
+    Content-Length: 312
+    Vary: X-Auth-Token
+    x-openstack-request-id: req-70234e40-c6b0-4192-b478-e5cd3732d419
+    Connection: close
+    
+    
+    0.000000s
+    {"user": {"id": "c373da67a62b48f393c45dc071fa80b8", "name": "jellibean", "domain_id": "default", "enabled": true, "default_project_id": "9fb84977ff7c4a0baf0d5dbb57e235c7", "password_expires_at": null, "options": {}, "links": {"self": "http://134.209.71.220/identity/v3/users/c373da67a62b48f393c45dc071fa80b8"}}}
