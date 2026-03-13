@@ -1,0 +1,97 @@
+<auth.log.sample>
+    POST /dashboard/auth/login/ HTTP/1.1
+    Host: cloud.vantage.tech
+    Connection: keep-alive
+    Content-Length: 189
+    Cache-Control: max-age=0
+    Origin: http://cloud.vantage.tech
+    Content-Type: application/x-www-form-urlencoded
+    Upgrade-Insecure-Requests: 1
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    Referer: http://cloud.vantage.tech/dashboard/auth/login/
+    Accept-Encoding: gzip, deflate
+    Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7
+    Cookie: login_region=default; login_domain=""; csrftoken=zbyL3KweavrXPtJkg6ES943ak9z1eLcW; sessionid=ilbh6iyh6skstj3zmrn8p3oo1d5yn285
+    
+    
+    0.000000s
+    csrfmiddlewaretoken=yviCpdd2UAkGwSLwB7aqm7OSAIjoJXB2XwGdiNz6UVBtbbkGH3E8l1HSKHIfNyDO&fake_email=&fake_password=&next=%2Fdashboard%2F&region=default&username=admin&password=StrongAdminSecret
+    0.373741s
+    HTTP/1.1 302 Found
+    Date: Tue, 01 Jul 2025 09:40:07 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    Location: /dashboard/
+    Content-Length: 0
+    Expires: Tue, 01 Jul 2025 09:40:07 GMT
+    Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+    Vary: Cookie,Accept-Language
+    X-Frame-Options: DENY
+    Content-Language: en-gb
+    Content-Type: text/html; charset=utf-8
+    Set-Cookie: csrftoken=vSJp8PSCxgVICejM2lui5foOpgzAXX94; Path=/; SameSite=Lax
+    Set-Cookie: login_region=default; expires=Wed, 01 Jul 2026 09:40:07 GMT; Max-Age=31536000; Path=/
+    Set-Cookie: login_domain=""; expires=Wed, 01 Jul 2026 09:40:07 GMT; Max-Age=31536000; Path=/
+    Set-Cookie: sessionid=t5up9mbx1u0p47asqrqjfhn4f6dpinla; expires=Tue, 01 Jul 2025 10:40:06 GMT; HttpOnly; Max-Age=3599; Path=/; SameSite=Lax
+    Keep-Alive: timeout=5, max=100
+    Connection: Keep-Alive
+    
+    
+    0.255781s
+    GET /dashboard/ HTTP/1.1
+    Host: cloud.vantage.tech
+    Connection: keep-alive
+    Cache-Control: max-age=0
+    Upgrade-Insecure-Requests: 1
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    Referer: http://cloud.vantage.tech/dashboard/auth/login/
+    Accept-Encoding: gzip, deflate
+    Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7
+    Cookie: login_region=default; login_domain=""; csrftoken=vSJp8PSCxgVICejM2lui5foOpgzAXX94; sessionid=t5up9mbx1u0p47asqrqjfhn4f6dpinla
+    
+    
+    0.031766s
+    HTTP/1.1 302 Found
+    Date: Tue, 01 Jul 2025 09:40:08 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    Location: /dashboard/project/
+    Content-Length: 0
+    Vary: Cookie,Accept-Language
+    X-Frame-Options: DENY
+    Content-Language: en-gb
+    Content-Type: text/html; charset=utf-8
+    Set-Cookie: sessionid=t5up9mbx1u0p47asqrqjfhn4f6dpinla; expires=Tue, 01 Jul 2025 10:40:06 GMT; HttpOnly; Max-Age=3598; Path=/; SameSite=Lax
+    Keep-Alive: timeout=5, max=99
+    Connection: Keep-Alive
+    
+    
+    0.276044s
+    GET /dashboard/project/ HTTP/1.1
+    Host: cloud.vantage.tech
+    Connection: keep-alive
+    Cache-Control: max-age=0
+    Upgrade-Insecure-Requests: 1
+    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    Referer: http://cloud.vantage.tech/dashboard/auth/login/
+    Accept-Encoding: gzip, deflate
+    Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7
+    Cookie: login_region=default; login_domain=""; csrftoken=vSJp8PSCxgVICejM2lui5foOpgzAXX94; sessionid=t5up9mbx1u0p47asqrqjfhn4f6dpinla
+    
+    
+    5.480744s
+    HTTP/1.1 200 OK
+    Date: Tue, 01 Jul 2025 09:40:08 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    X-Frame-Options: DENY
+    Vary: Accept-Language,Cookie,Accept-Encoding
+    Content-Language: en-gb
+    Content-Encoding: gzip
+    Content-Type: text/html
+    Set-Cookie: sessionid=t5up9mbx1u0p47asqrqjfhn4f6dpinla; expires=Tue, 01 Jul 2025 10:40:11 GMT; HttpOnly; Max-Age=3598; Path=/; SameSite=Lax
+    Set-Cookie: csrftoken=vSJp8PSCxgVICejM2lui5foOpgzAXX94; Path=/; SameSite=Lax
+    Keep-Alive: timeout=5, max=98
+    Connection: Keep-Alive
+    Transfer-Encoding: chunked
+--------<page.contents>---------
