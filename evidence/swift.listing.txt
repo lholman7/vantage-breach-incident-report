@@ -1,0 +1,24 @@
+<swift.listing.txt>
+
+    GET /identity/v3/services/f9194820052d4788b09157bf0a0dfdd0 HTTP/1.1
+    Host: 134.209.71.220
+    User-Agent: openstacksdk/4.6.0 keystoneauth1/5.11.1 python-requests/2.32.4 CPython/3.13.5
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: keep-alive
+    X-Auth-Token: gAAAAA...
+    
+    
+    0.027259s
+    HTTP/1.1 200 OK
+    Date: Tue, 01 Jul 2025 09:42:02 GMT
+    Server: Apache/2.4.58 (Ubuntu)
+    Content-Type: application/json
+    Content-Length: 244
+    Vary: X-Auth-Token
+    x-openstack-request-id: req-1c3cacae-4a77-4207-a0ab-95a58f3e1d1f
+    Connection: close
+    
+    
+    0.000000s
+    {"service": {"description": "Swift Service", "name": "swift", "id": "f9194820052d4788b09157bf0a0dfdd0", "type": "object-store", "enabled": true, "links": {"self": "http://134.209.71.220/identity/v3/services/f9194820052d4788b09157bf0a0dfdd0"}}}
