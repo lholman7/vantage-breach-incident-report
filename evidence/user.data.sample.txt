@@ -1,0 +1,78 @@
+<user.data.sample.txt>
+    GET /sdb1/440/AUTH_9fb84977ff7c4a0baf0d5dbb57e235c7/user-data/user-details.csv HTTP/1.1
+    Accept-Encoding: identity
+    X-Backend-Etag-Is-At: x-object-sysmeta-slo-etag
+    X-Backend-Ignore-Range-If-Metadata-Present: X-Static-Large-Object,X-Object-Manifest,x-object-sysmeta-symlink-target
+    X-Backend-Storage-Policy-Index: 0
+    Host: 134.209.71.220:8080
+    User-Agent: proxy-server 2557
+    Accept-Encoding: gzip, deflate
+    Accept: */*
+    Connection: close
+    X-Auth-Token: gAAAAA...
+    X-Identity-Status: Confirmed
+    X-Roles: reader,member,admin,manager
+    X-Project-Id: 9fb84977ff7c4a0baf0d5dbb57e235c7
+    X-Project-Name: admin
+    X-Project-Domain-Id: default
+    X-Project-Domain-Name: Default
+    X-User-Id: b1cbe2fc995a47ae85a4408a52aeca38
+    X-User-Name: admin
+    X-User-Domain-Id: default
+    X-User-Domain-Name: Default
+    X-Is-Admin-Project: True
+    X-Role: reader,member,admin,manager
+    X-User: admin
+    X-Tenant-Id: 9fb84977ff7c4a0baf0d5dbb57e235c7
+    X-Tenant-Name: admin
+    X-Tenant: admin
+    X-Trans-Id: tx89c3d915d2c64b1c8cda1-006863ae33
+    Content-Type: 
+    X-Timestamp: 1751363123.11606
+    Referer: GET http://134.209.71.220:8080/v1/AUTH_9fb84977ff7c4a0baf0d5dbb57e235c7/user-data/user-details.csv
+    
+    
+    0.013503s
+    HTTP/1.1 200 OK
+    Content-Type: text/csv
+    Etag: "2197a57085557424cefc95f85efb7499"
+    Last-Modified: Tue, 01 Jul 2025 04:31:31 GMT
+    Content-Length: 1367
+    X-Timestamp: 1751344290.17360
+    X-Backend-Timestamp: 1751344290.17360
+    X-Backend-Data-Timestamp: 1751344290.17360
+    X-Backend-Durable-Timestamp: 1751344290.17360
+    Date: Tue, 01 Jul 2025 09:45:23 GMT
+    Connection: close
+    
+    
+    0.000000s
+    Full Name,Email,Phone Number
+    John Doe,john.doe@example.com,(123) 456-7890
+    Jane Smith,jane.smith@example.com,(234) 567-8901
+    Alice Johnson,a.johnson@example.com,(345) 678-9012
+    Bob Brown,b.brown@example.com,(456) 789-0123
+    Charlie Davis,c.davis@example.com,(567) 890-1234
+    Diana Wilson,d.wilson@example.com,(678) 901-2345
+    Ethan Moore,e.moore@example.com,(789) 012-3456
+    Fiona Taylor,f.taylor@example.com,(890) 123-4567
+    George Wilson,g.wilson@example.com,(901) 234-5678
+    Helen Adams,h.adams@example.com,(012) 345-6789
+    Ian Lee,i.lee@example.com,(123) 456-7890
+    Julia Smith,j.smith@example.com,(234) 567-8901
+    Kevin Miller,k.miller@example.com,(345) 678-9012
+    Laura Evans,l.evans@example.com,(456) 789-0123
+    Michael Thomas,m.thomas@example.com,(567) 890-1234
+    Natalie Wilson,n.wilson@example.com,(678) 901-2345
+    Oliver Johnson,o.johnson@example.com,(789) 012-3456
+    Penny Davis,p.davis@example.com,(890) 123-4567
+    Quinn Lee,q.lee@example.com,(901) 234-5678
+    Rachel Moore,r.moore@example.com,(012) 345-6789
+    Simon Evans,s.evans@example.com,(123) 456-7890
+    Tara Wilson,t.wilson@example.com,(234) 567-8901
+    Uma Johnson,u.johnson@example.com,(345) 678-9012
+    Vivian Lee,v.lee@example.com,(456) 789-0123
+    William Thomas,w.thomas@example.com,(567) 890-1234
+    Xander Wilson,x.wilson@example.com,(678) 901-2345
+    Yara Johnson,y.johnson@example.com,(789) 012-3456
+    Zoe Lee,z.lee@example.com,(890) 123-4567
